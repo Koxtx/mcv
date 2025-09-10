@@ -1203,4 +1203,4 @@ app.structure.excludePathBeforeLeave = [app.structure.enum.pageSlug.EBOOKING_TIM
 app.structure.frontHeader = 'generic_header';
 app.structure.frontFooter = 'generic_footer';
 
-app.structure.frontElements = [{ name: 'generic_heade', theme: 'theme_portal' }, { name: app.structure.frontFooter }];
+app.structure.frontElements = [{ name: app.structure.frontHeader, theme: 'theme_portal' }, { name: app.structure.frontFooter }];
